@@ -1,4 +1,4 @@
-//Approach 1: Using Arrays.sort 
+//Approach 1: Using Arrays.sort built in function
 import java.util.*;
 public class MaxMin {
     public static void main(String[] args) {
