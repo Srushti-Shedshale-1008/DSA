@@ -1,4 +1,5 @@
 //Two Sum Problem (Brute Force Approach)
+//Finding the indices of two values whose addition will be equal to the given target
 package Day09;
 public class TwoSum {
     public static void main(String[] args) {
