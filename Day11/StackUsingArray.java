@@ -1,8 +1,16 @@
+//Implementation of Stack using Array
 public class StackUsingArray {
     public static int top=-1;
+    public void peek(int arr[]){
+        if(top==-1){
+            System.out.println("\nStack is empty!");
+            return;
+        }
+        System.out.println("\nPeek:"+arr[top]);
+    }
     public void push(int data,int arr[]){
         if(top==arr.length-1){
-            System.out.println("Stack is full");
+            System.out.println("\nOverflow!");
             return;
         }
        arr[++top]=data;
@@ -33,10 +41,11 @@ public class StackUsingArray {
         s.push(3, arr);
         s.push(2, arr);
         s.push(4, arr);
+        s.peek(arr);
 
         s.printElements(arr);
         s.pop(arr);
-
+        s.peek(arr);
         s.printElements(arr);
   
         
