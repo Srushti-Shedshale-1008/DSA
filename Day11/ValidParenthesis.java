@@ -32,34 +32,28 @@ public class ValidParenthesis {
         else if(str.charAt(i)== ')' || str.charAt(i)== ']' || str.charAt(i)== '}'){
             char ch=vp.pop(arr);
 
-            if(str.charAt(i)==')'){
-                if(ch!='('){
+            if(str.charAt(i)==')' && ch!='('){
                     System.out.println("\nInvalid");
                     return;
-                }
             }
 
-            else if(str.charAt(i)==']'){
-                if(ch!='['){
+            else if(str.charAt(i)==']' && ch!='['){
                     System.out.println("\nInvalid");
                     return;
-                }
             }
 
-            else if(str.charAt(i)=='}'){
-                if(ch!='{'){
+            else if(str.charAt(i)=='}' && ch!='{'){
                     System.out.println("\nInvalid");
                     return;
-                }
             }
            
             
         }
     }
     if(ValidParenthesis.top==-1){
-        System.out.println("\n | Finally Valid Parenthesis!");
+        System.out.println("\n|Valid Parenthesis!");
     }
-    else System.out.println("\n Still Invalid!");
+    else System.out.println("\n|Invalid!");
 
  }   
 }
