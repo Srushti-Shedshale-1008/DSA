@@ -14,6 +14,6 @@ public class PowerUsingRecursion {
     public static void main(String[] args) {
         PowerUsingRecursion pow=new PowerUsingRecursion();
         int powerIs=pow.power(3, 3);
-        System.out.println("\n:" +powerIs);
+        System.out.println("\n" +powerIs);
     }
 }
