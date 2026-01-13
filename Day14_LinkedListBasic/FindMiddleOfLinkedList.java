@@ -83,6 +83,7 @@ public class FindMiddleOfLinkedList {
         middleOfLinkedList.insertNode(3);
         middleOfLinkedList.insertNode(4);
         middleOfLinkedList.insertNode(5);
+        middleOfLinkedList.insertNode(6);
         middleOfLinkedList.printList();
         int count=middleOfLinkedList.countNodes();
         System.out.println("\nNumber of Nodes:"+count);
