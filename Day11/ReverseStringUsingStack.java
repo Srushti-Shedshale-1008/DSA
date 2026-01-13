@@ -30,7 +30,7 @@ public class ReverseStringUsingStack {
         char ch=head.data;
         head=head.next;
         //For reference
-        System.out.println("\nPopped charater:"+ch);
+       // System.out.println("\nPopped charater:"+ch);
         return ch;
     }
     //Peek
