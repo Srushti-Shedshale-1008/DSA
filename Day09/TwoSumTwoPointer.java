@@ -4,7 +4,7 @@ package Day09;
 import java.util.Arrays;
 
 public class TwoSumTwoPointer {
-    //In this approach the orders of elements in array gets changes due to sorting
+    //In this approach the orders of elements in array get changed due to sorting
     // So it is helpfull when order does not matter
     public static void main(String[] args) {
          int arr[]={2,7,1,3};
